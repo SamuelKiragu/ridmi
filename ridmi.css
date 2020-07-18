@@ -9,12 +9,12 @@
 }
 .nav{
     width: 100%;
-    height: 40vh;
+    box-shadow: 0px 3px 3px 1px #777;
+    background-image: url("stars.jfif");
 }
 .top{
     height: 8vh;
     width: 100%;
-    background-color: rgb(5, 12, 13);
     align-items: center;
     color: white;
     display: flex;
@@ -62,12 +62,107 @@
 .bottom{
     height: 32vh;
     width: 100%;
-    background-color: rgb(5, 12, 13);
     align-items: center;
     color: white;
-    display: flex;
+    display: block;
     flex-direction: column;
     font-family: verdana;
     text-align: center;
     padding-top: 50px;
+    box-shadow: 2px 3px 3px 1px #777;
+}
+.top-image{
+    width: 80%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 10px;
+    background-color: black;
+    align-items: center;
+    color: white;
+    box-shadow: 2px 3px 3px 1px #777;
+}
+.top-image p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.data-contents{
+    width: 100%;
+    height: 40vh;
+    margin-top: 10px;
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+}
+.first-content, .second-content, .nth-content{
+    width: 30%;
+    height: 90%;
+    background-color: #ccc;
+    margin-left: 2.5%;
+    box-shadow: 2px 3px 3px 1px #777;
+    text-align: center;
+}
+.first-content p, .second-content p, .nth-content p{
+    align-items: center;
+}
+.last-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 30vh;
+    background-color: red;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 70%;
+    background-image: url("stars.jfif");
+}
+.right{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(201, 66, 66);
+}
+.footer{
+    height: 80vh;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.82);
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    font-family: verdana;
+    font-size: 15px;
+}
+.partners{
+    background-color: rgb(72, 172, 72);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-top: 20px;
+}
+.part-left{
+    width: 60%;
+    height: 80%;
+    border-right: 1px solid #ddd;
+    padding: 50px 0 0 80px;
+}
+.part-left h4{
+    color: #444;
+    margin-bottom: 30px;
+}
+.part-right{
+    width: 40%;
+}
+.topped, .bottommed{
+    padding: 30px 0 0 20px;
+}
+.bottommed img, .topped img{
+    float: left;
+    margin-right: 20px;
+}
+.detail span{
+    color: #444;
+    text-transform: capitalize;
 }
