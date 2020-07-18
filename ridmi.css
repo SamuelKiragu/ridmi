@@ -1,30 +1,30 @@
 *{
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 .container{
-    width: 100%;
     background-color: aliceblue;
+    width: 100%;
 }
 .nav{
-    width: 100%;
-    box-shadow: 0px 3px 3px 1px #777;
     background-image: url("stars.jfif");
+    box-shadow: 0px 3px 3px 1px #777;
+    width: 100%;
 }
 .top{
-    height: 8vh;
-    width: 100%;
     align-items: center;
-    color: white;
+    color: #333333;
     display: flex;
     font-family: verdana;
+    height: 8vh;
+    width: 100%;
 }
 .logo{
     float: left;
-    width: 50%;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 20px
+    width: 50%;
 }
 .nav-links{
     float: left;
@@ -36,8 +36,8 @@
     padding-right: 30px;
 }
 .links li{
-    margin-left: 30px;
     list-style: none;
+    margin-left: 30px;
 }
 .links a{
     color: #ccc;
@@ -52,101 +52,101 @@
 }
 .link2{
     border: 1px solid white;
-    padding: 4px 2px 4px 2px;
     border-radius: 10px;
+    padding: 4px 2px 4px 2px;
 }
 .link2:hover{
-    border: 1px solid blue;
     background-color: cornflowerblue;
+    border: 1px solid blue;
 }
 .bottom{
-    height: 32vh;
-    width: 100%;
     align-items: center;
+    box-shadow: 2px 3px 3px 1px #777;
     color: white;
     display: block;
     flex-direction: column;
     font-family: verdana;
+    height: 32vh;
     text-align: center;
     padding-top: 50px;
-    box-shadow: 2px 3px 3px 1px #777;
+    width: 100%;
 }
 .top-image{
-    width: 80%;
+    align-items: center;
+    background-color: black;
+    box-shadow: 2px 3px 3px 1px #777;
+    color: white;
+    display: flex;
     height: 40vh;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     margin-top: 10px;
-    background-color: black;
-    align-items: center;
-    color: white;
-    box-shadow: 2px 3px 3px 1px #777;
+    width: 80%;
 }
 .top-image p{
     margin-left: auto;
     margin-right: auto;
 }
 .data-contents{
-    width: 100%;
+    align-items: center;
+    display: flex;
     height: 40vh;
     margin-top: 10px;
     padding-top: 3px;
-    display: flex;
-    align-items: center;
+    width: 100%;
 }
 .first-content, .second-content, .nth-content{
-    width: 30%;
-    height: 90%;
     background-color: #ccc;
-    margin-left: 2.5%;
     box-shadow: 2px 3px 3px 1px #777;
+    height: 90%;
+    margin-left: 2.5%;
     text-align: center;
+    width: 30%;
 }
 .first-content p, .second-content p, .nth-content p{
     align-items: center;
 }
 .last-content{
+    background-color: red;
+    display: flex;
+    height: 30vh;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: 30vh;
-    background-color: red;
-    display: flex;
 }
 .left{
+    background-image: url("stars.jfif");
     height: 100%;
     width: 70%;
-    background-image: url("stars.jfif");
 }
 .right{
+    background-color: rgb(201, 66, 66);
     height: 100%;
     width: 30%;
-    background-color: rgb(201, 66, 66);
 }
 .footer{
-    height: 80vh;
-    width: 100%;
-    margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.82);
     color: #ddd;
     display: flex;
     flex-direction: column;
     font-family: verdana;
     font-size: 15px;
+    height: 80vh;
+    margin-top: 10px;
+    width: 100%;
 }
 .partners{
     background-color: rgb(72, 172, 72);
-    width: 100%;
-    height: 50%;
     display: flex;
+    height: 50%;
     padding-top: 20px;
+    width: 100%;
 }
 .part-left{
-    width: 60%;
-    height: 80%;
     border-right: 1px solid #ddd;
+    height: 80%;
     padding: 50px 0 0 80px;
+    width: 60%;
 }
 .part-left h4{
     color: #444;
