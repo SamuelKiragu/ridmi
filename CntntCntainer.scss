@@ -1,0 +1,98 @@
+$PRIMARY_COLOR : #f6f6f6;
+$PRIMARY_COLOR_LIGHT : #ffffff;
+$PRIMARY_COLOR_DARK : #f2f2f2;
+
+$SECONDARY_COLOR : #2b8bff;
+$SECONDARY_COLOR_LIGHT : #57a8ff;
+$SECONDARY_COLOR_DARK : #1577ed;
+
+$ON_BACKGROUND_LIGHT : #1a1a1a;
+$ON_BACKGROUND_DARK : #ffffff;
+
+$BORDER_COLOR : #cfcfcf;
+$BORDER_COLOR_LIGHT : #ebebeb;
+$BORDER_COLOR_DARK : #787878;
+
+// this is the styling of the container of one article
+// it has been separated from the stying of the template for easy maintenance
+// the content container has been divided into three major parts
+// 1. content header : CntntHderDiv
+// 2. content image : CntntImgDiv
+// 3. content footer : CntntFtrDiv
+// each of this parts has a class name and not an id because there will be multiple
+// article containers
+
+
+// the list division holding the content containers
+.CntntLst{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  width: 55%;
+  z-index: 1;
+}
+
+
+// the container
+.CntntCntainer{
+  background: $PRIMARY_COLOR_LIGHT;
+  border: 1px solid $BORDER_COLOR_LIGHT;
+  border-radius: 5px;
+  color: $ON_BACKGROUND_LIGHT;
+  margin: 5px;
+  width: 100%;
+}
+
+
+// here are the styling of the various parts of the container
+// It is important to repeat that each container has the following parts
+// 1. Header
+// 2.Image
+// 3.Footer
+
+// the header part
+.CntntHderDiv{
+  padding: 15px 10px;
+  h5{
+    font-size: 18px;
+  }
+}
+
+
+// the Image part
+.CntntImgDiv{
+  padding: 2px;
+  width: 100%;
+
+  img{
+    width: inherit;
+  }
+}
+
+
+// the footer part
+.CntntFtrDiv{
+  padding: 5px 10px;
+
+  .OvrlInf{
+    // image for the avatar
+    .UsrAvtr{
+      border-radius: 25px;
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+    }
+    // paragraph with summary info
+    .OvrlTxt{
+      display:inline-block;
+      font-size: 15px;
+      width: 80%;
+    }
+  }
+
+  .ArtcleSnptDiv{
+    padding: 20px 0;
+    line-height: 30px;
+  }
+}

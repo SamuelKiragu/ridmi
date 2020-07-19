@@ -1,0 +1,43 @@
+.CntntLst {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  width: 55%;
+  z-index: 1; }
+
+.CntntCntainer {
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  color: #1a1a1a;
+  margin: 5px;
+  width: 100%; }
+
+.CntntHderDiv {
+  padding: 15px 10px; }
+  .CntntHderDiv h5 {
+    font-size: 18px; }
+
+.CntntImgDiv {
+  padding: 2px;
+  width: 100%; }
+  .CntntImgDiv img {
+    width: inherit; }
+
+.CntntFtrDiv {
+  padding: 5px 10px; }
+  .CntntFtrDiv .OvrlInf .UsrAvtr {
+    border-radius: 25px;
+    display: inline-block;
+    height: 50px;
+    width: 50px; }
+  .CntntFtrDiv .OvrlInf .OvrlTxt {
+    display: inline-block;
+    font-size: 15px;
+    width: 80%; }
+  .CntntFtrDiv .ArtcleSnptDiv {
+    padding: 20px 0;
+    line-height: 30px; }
+
+/*# sourceMappingURL=CntntCntainer.css.map */
