@@ -48,9 +48,31 @@ header{
   position: fixed;
   top: 0px;
   width: 100%;
+  z-index: 100000;
 
   .TtlDiv{
     display: inline-block;
+    padding: 10px 25px;
+
+    // company logo image
+    img{
+      display: inline-block;
+    }
+    h3{
+      display: inline-block;
+    }
+  }
+
+  .NavDiv{
+    display: inline-block;
+    float: right;
+    width: 100px;
+
+    .NavImgDiv{
+      .NavOpt{
+        width: 30px;
+      }
+    }
   }
 }
 
@@ -59,5 +81,7 @@ header{
 // it is in this division that we actually get the content
 // that we want
 #MnSct{
-  padding: 75px 50px 0 50px;
+  padding: 5px 55px;
+  position: relative;
+  top: 80px;
 }

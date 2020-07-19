@@ -14,11 +14,25 @@ header {
   padding: 15px 30px;
   position: fixed;
   top: 0px;
-  width: 100%; }
+  width: 100%;
+  z-index: 100000; }
   header .TtlDiv {
-    display: inline-block; }
+    display: inline-block;
+    padding: 10px 25px; }
+    header .TtlDiv img {
+      display: inline-block; }
+    header .TtlDiv h3 {
+      display: inline-block; }
+  header .NavDiv {
+    display: inline-block;
+    float: right;
+    width: 100px; }
+    header .NavDiv .NavImgDiv .NavOpt {
+      width: 30px; }
 
 #MnSct {
-  padding: 75px 50px 0 50px; }
+  padding: 5px 55px;
+  position: relative;
+  top: 80px; }
 
 /*# sourceMappingURL=home.css.map */
