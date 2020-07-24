@@ -1,0 +1,77 @@
+$PRIMARY_COLOR : #f6f6f6;
+$PRIMARY_COLOR_LIGHT : #ffffff;
+$PRIMARY_COLOR_DARK : #f2f2f2;
+
+$SECONDARY_COLOR : #2b8bff;
+$SECONDARY_COLOR_LIGHT : #57a8ff;
+$SECONDARY_COLOR_DARK : #1577ed;
+
+$ON_BACKGROUND_LIGHT : #1a1a1a;
+$ON_BACKGROUND_DARK : #ffffff;
+
+$BORDER_COLOR : #cfcfcf;
+$BORDER_COLOR_LIGHT : #ebebeb;
+$BORDER_COLOR_DARK : #787878;
+
+// this is the list that holds the person containers
+// this is what you should manipulate when dealing with how one will scroll
+.PplSgstnLst{
+  display: inline-block;
+  overflow: hidden;
+  position: fixed;
+  right: 20px;
+  top: 100px;
+  width: 35%;
+
+  h4{
+    padding: 15px 0 25px 0;
+  }
+
+  .PplScrlLst{
+
+  }
+}
+
+
+// this is the container of one person suggestion
+
+.PrsnCntner{
+  background: $PRIMARY_COLOR_LIGHT;
+  padding: 10px;
+  width: 200px;
+}
+
+
+// this is one of the sections of the container
+//contains the User avatar
+.PrsnCntnerImgDiv{
+  width: 100%;
+  img{
+    width: inherit;
+    height: 200px;
+  }
+}
+
+// contains the user name
+.PrsnCntnerDtlDiv{
+  p{
+    text-align: center;
+  }
+}
+
+// contains the options
+.PrsnCntnerOptnDiv{
+  padding: 15px 0;
+  form{
+    display: flex;
+    padding: 0 40px;
+
+    button{
+      background: $PRIMARY_COLOR_LIGHT;
+      border: 1px solid $SECONDARY_COLOR_DARK;
+      border-radius: 5px;
+      color: $SECONDARY_COLOR_DARK;
+      padding: 5px 15px;
+    }
+  }
+}
