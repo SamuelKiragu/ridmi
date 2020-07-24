@@ -1,3 +1,7 @@
+// importing the font to use in the body
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Gayathri:wght@700&display=swap');
+
+
 // This are the primary colors to use
 // Using a fixed number of colors brings about consistency in
 // the layout
@@ -29,6 +33,9 @@ $BORDER_COLOR_DARK : #787878;
 
 body{
   background: $PRIMARY_COLOR;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
   margin: 0px;
 }
 
@@ -41,7 +48,7 @@ body{
 header{
   background: $PRIMARY_COLOR_LIGHT;
   box-shadow: 0px 0px 3px $BORDER_COLOR;
-  display: flex;
+  display: block;
   flex-direction: row;
   height: 70px;
   padding: 15px 30px;
@@ -63,13 +70,59 @@ header{
     }
   }
 
+
+  .SrchDiv{
+    display: inline-block;
+    padding: 0 20vw;
+
+    form{
+      position:relative;
+      top: -35px;
+
+      button{
+        background: none;
+        border-top: 1px solid $BORDER_COLOR;
+        border-bottom: 1px solid $BORDER_COLOR;
+        border-left: 1px solid $BORDER_COLOR;
+        border-right: none;
+        border-radius: 3px 0 0 3px;
+        box-sizing: border-box;
+        left: 0px;
+        padding: 12px;
+        position: absolute;
+        width: 40px;
+
+        img{
+          height: 20px;
+          width: 20px;
+        }
+      }
+      input{
+        background: none;
+        border-top: 1px solid $BORDER_COLOR;
+        border-bottom: 1px solid $BORDER_COLOR;
+        border-right: 1px solid $BORDER_COLOR;
+        border-left: none;
+        border-radius: 0 3px 3px 0;
+        display: inline-block;
+        height: 49px;
+        left: 40px;
+        padding: 12px 0 12px 12px;
+        position: absolute;
+      }
+    }
+  }
+
+
+
   .NavDiv{
     display: inline-block;
-    float: right;
-    width: 100px;
+    padding: 0 20px;
+    margin:  0 10px 0 20vw;
 
     .NavImgDiv{
       .NavOpt{
+        margin: 0 10px;
         width: 30px;
       }
     }
