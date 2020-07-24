@@ -1,0 +1,40 @@
+$PRIMARY_COLOR : #f6f6f6;
+$PRIMARY_COLOR_LIGHT : #ffffff;
+$PRIMARY_COLOR_DARK : #f2f2f2;
+
+$SECONDARY_COLOR : #2b8bff;
+$SECONDARY_COLOR_LIGHT : #57a8ff;
+$ON_BACKGROUND_LIGHT2 : #888888;
+$SECONDARY_COLOR_DARK : #1577ed;
+
+$ON_BACKGROUND_LIGHT : #1a1a1a;
+$ON_BACKGROUND_DARK : #ffffff;
+
+$BORDER_COLOR : #cfcfcf;
+$BORDER_COLOR_LIGHT : #ebebeb;
+$BORDER_COLOR_DARK : #787878;
+
+.OthrCntntLst{
+  display: inline-block;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 35%;
+
+  footer{
+    color: $ON_BACKGROUND_LIGHT2;
+    line-height: 30px;
+
+    a{
+      color: inherit;
+      margin: 5px;
+    }
+    p{
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}

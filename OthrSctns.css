@@ -1,0 +1,20 @@
+.OthrCntntLst {
+  display: inline-block;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 35%; }
+  .OthrCntntLst footer {
+    color: #888888;
+    line-height: 30px; }
+    .OthrCntntLst footer a {
+      color: inherit;
+      margin: 5px; }
+    .OthrCntntLst footer p {
+      font-size: 14px;
+      text-align: center; }
+
+/*# sourceMappingURL=OthrSctns.css.map */
