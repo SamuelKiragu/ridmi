@@ -1,0 +1,12 @@
+$FOCUS_COLOR: blue;
+$UNFOCUS_COLOR: #ededed;
+
+
+.menu-color{
+  fill: $UNFOCUS_COLOR;
+  height: 30px;
+  width: 30px;
+  padding: 10px 20px;
+  transition: 1s;
+  z-index: 10000;
+}

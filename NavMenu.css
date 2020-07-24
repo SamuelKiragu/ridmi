@@ -1,0 +1,9 @@
+.menu-color {
+  fill: #ededed;
+  height: 30px;
+  width: 30px;
+  padding: 10px 20px;
+  transition: 1s;
+  z-index: 10000; }
+
+/*# sourceMappingURL=NavMenu.css.map */
