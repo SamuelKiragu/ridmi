@@ -26,6 +26,7 @@
     width: inherit; }
 
 .CntntFtrDiv {
+  font-family: 'Gayathri', sans-serif;
   padding: 5px 10px; }
   .CntntFtrDiv .OvrlInf .UsrAvtr {
     border-radius: 25px;
