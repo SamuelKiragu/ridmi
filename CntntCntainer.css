@@ -41,4 +41,12 @@
     padding: 20px 0;
     line-height: 30px; }
 
+@media (max-width: 920px) {
+  .CntntLst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    width: 100%; } }
+
 /*# sourceMappingURL=CntntCntainer.css.map */

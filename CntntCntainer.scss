@@ -97,3 +97,17 @@ $BORDER_COLOR_DARK : #787878;
     line-height: 30px;
   }
 }
+
+
+// Here are the queries that deal with the responsive design
+// of the home template
+@media (max-width: 920px){
+  // the list division holding the content containers
+  .CntntLst{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    width: 100%;
+  }
+}
