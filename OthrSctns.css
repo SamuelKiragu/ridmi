@@ -17,4 +17,8 @@
       font-size: 14px;
       text-align: center; }
 
+@media (max-width: 920px) {
+  .OthrCntntLst {
+    display: none; } }
+
 /*# sourceMappingURL=OthrSctns.css.map */
