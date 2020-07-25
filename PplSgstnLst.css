@@ -34,4 +34,8 @@
       color: #1577ed;
       padding: 5px 15px; }
 
+@media (max-width: 920px) {
+  .PplSgstnLst {
+    display: none; } }
+
 /*# sourceMappingURL=PplSgstnLst.css.map */

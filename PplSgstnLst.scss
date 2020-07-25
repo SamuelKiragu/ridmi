@@ -75,3 +75,12 @@ $BORDER_COLOR_DARK : #787878;
     }
   }
 }
+
+
+// Here are the queries that deal with the responsive design
+// of the home template
+@media (max-width: 920px){
+  .PplSgstnLst{
+    display: none;
+  }
+}
